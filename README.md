@@ -1,9 +1,21 @@
 # opus-video-research
 
-Repo de investigación (nombre de trabajo, sin publicar todavía).
-Pregunta central: **¿qué hace Claude Code Opus 5.5 para generar videos así, sin necesidad de un MCP, solo con Python Pillow?**
+Repo público de investigación.
+Pregunta central: **¿cómo hacen las empresas grandes estos videos?**
+Videos de producto con mockups 3D: teléfonos, tarjetas e interfaces con
+profundidad, sombras y perspectiva. Su pipeline, sus herramientas, sus
+roles y sus decisiones — no solo el truco técnico.
 
-## Hipótesis a verificar (de Ray, 2026-10-26 — NO es un hecho)
+## Enfoque: entender el sistema, no copiar el truco
+
+Antes de reproducir nada, entender por qué cada decisión: cuándo usan
+2.5D (capas 2D con perspectiva y parallax) y cuándo modelo 3D real, qué
+curvas y ritmos usan, quién hace qué en el equipo, cuánto cuesta cada
+vía. El atajo de un agente no sustituye ese entendimiento.
+
+## Línea experimental: lo que hacen los agentes (no es la pregunta)
+
+Hipótesis a verificar (de Ray, 2026-10-26 — NO es un hecho)
 
 Desde un brief detallado (como el brief del video de Duolingo que Ray compartió),
 Opus escribe un script Python que dibuja cada frame con Pillow y lo une con
