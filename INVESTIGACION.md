@@ -16,6 +16,16 @@
   brief asigna a Pillow/OpenCV solo herramientas auxiliares y prohíbe
   simular 3D cinematográfico con imágenes 2D; exige motor 3D real
   (Blender/Cycles). La hipótesis «solo Pillow» no describe ese brief.
+- Corrección de alcance (Ray, 2026-10-26): el 3D objetivo es tipo
+  mockup (dispositivos, tarjetas UI con profundidad, sombras y
+  perspectiva), NO animación cinematográfica de personajes. El brief de
+  Duolingo queda como ejemplo de brief detallado, no como estilo visual
+  objetivo.
+- Experimento 002 (2026-10-26, mockup 3D): teléfono con la tienda en
+  perspectiva + sombra + flotación, solo Pillow. 150 frames, 5 s, decode
+  OK, visto en 3 puntos. Defecto encontrado al verlo (precios cortados
+  en el borde) y corregido (alineación derecha). El mockup 3D sí sale
+  con Pillow; queda medirlo contra la vía HTML en el issue 2.
 
 ## Verificado / sin verificar
 
