@@ -26,6 +26,10 @@
   OK, visto en 3 puntos. Defecto encontrado al verlo (precios cortados
   en el borde) y corregido (alineación derecha). El mockup 3D sí sale
   con Pillow; queda medirlo contra la vía HTML en el issue 2.
+- Reenfoque (Ray, 2026-10-26): el repo se centra en cómo hacen las
+  empresas grandes estos videos (pipeline, herramientas, decisiones).
+  Lo de Opus/Pillow pasa a línea experimental, no es la pregunta.
+  Enfoque: entender el sistema, no copiar el truco.
 
 ## Verificado / sin verificar
 
