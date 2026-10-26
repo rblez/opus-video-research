@@ -33,6 +33,18 @@ Herramientas: GSAP, Remotion, HyperFrames. Ver el informe completo en la página
 3. Registrar en `INVESTIGACION.md` qué se verificó ejecutándolo y qué sigue
    siendo afirmación sin probar. Nada se da por cierto sin correrlo.
 
+## Alcance (corrección de Ray, 2026-10-26)
+
+El «3D» que investiga este repo es **3D tipo mockup**: dispositivos,
+tarjetas de interfaz con profundidad, sombras y perspectiva (un teléfono
+flotando en ángulo con la tienda dentro, tarjetas con espesor). NO es
+animación cinematográfica de personajes (el mundo 3D del brief de Duolingo
+con Duo). El brief de Duolingo sirve aquí solo como ejemplo de brief
+detallado, no como estilo visual objetivo. Esto importa porque el mockup
+3D sí es alcanzable dibujando en 2D con perspectiva y sombras, sin motor
+3D real — y por eso la hipótesis «solo Pillow» se vuelve plausible en
+este alcance.
+
 ## Regla dura
 
 **Ningún video sale sin verlo antes.** Ver = decodificación completa sin
