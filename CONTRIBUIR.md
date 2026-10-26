@@ -24,5 +24,8 @@ contribución debe mantener esa honestidad.
   lleva su procedencia (captura, documento o fuente enlazada).
 - No subir frames sueltos, capturas de verificación ni `__pycache__`
   (ver `.gitignore`). El repo guarda código, notas y el MP4 final.
+- Entrega en WhatsApp: codificar con `-movflags +faststart` (moov al
+  inicio) y pista de audio AAC aunque sea silencio; sin eso WhatsApp
+  puede rechazar el archivo.
 - Si una hipótesis se cae con evidencia, se registra la corrección en
   `INVESTIGACION.md`, no se borra la hipótesis original.
