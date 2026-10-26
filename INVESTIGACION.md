@@ -30,6 +30,11 @@
   empresas grandes estos videos (pipeline, herramientas, decisiones).
   Lo de Opus/Pillow pasa a línea experimental, no es la pregunta.
   Enfoque: entender el sistema, no copiar el truco.
+- Investigación empresas grandes (recibida 2026-10-26): no existe
+  pipeline interno público de Apple, Stripe o Linear; flujo canónico
+  Figma → C4D/Blender + Octane/Redshift → After Effects → color/audio;
+  híbrido 3D-shell + UI 2D lo más frecuente en SaaS. Síntesis en
+  `EMPRESAS-GRANDES.md`; issues 6, 7 y 8 alimentados con el avance.
 
 ## Verificado / sin verificar
 
